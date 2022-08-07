@@ -2,7 +2,7 @@ clc
 clear all
 close all
 
-[audio, Fs] = audioread("open notes.mp3");
+[audio, Fs] = audioread("open notes of guitar.mp3");
 w = noteWindow(audio);
 noOfNotes = length(w)-1;
 notes = [];
